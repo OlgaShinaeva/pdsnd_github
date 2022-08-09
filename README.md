@@ -5,10 +5,11 @@
 
 ### Description
 The project provides statistics on Bikeshare service based on data from 3 major US cities:
-
+```
 - Chicago
 - New York City
 - Washington
+```
 
 ### Files included in the project
 
