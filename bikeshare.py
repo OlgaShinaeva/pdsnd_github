@@ -34,7 +34,8 @@ def get_day():
     while True:
         try:
             day = int(input("Which day? Please type "
-                            "your response as an integer (e.g, 0 = Monday)\n"))
+                            "your response as an integer "
+                            "(e.g, 0 = Monday)\n"))
             if day >= 0 and day <= 6:
                 print(f"You entered: {day}")
                 break
@@ -271,7 +272,8 @@ def main():
             trip_duration_stats(df)
             user_stats(df, city)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input("\nWould you like to restart? "
+                        "Enter yes or no.\n")
         if restart.lower() != 'yes':
             break
 
