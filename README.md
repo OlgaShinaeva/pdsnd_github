@@ -14,7 +14,7 @@ The project provides statistics on Bikeshare service based on data from 3 major 
 Note: The information about gender and birth year is only availiable for Chicago and New York City
 ```
 
-### Files included in the project
+### Files included in the project:
 
 - chicago.csv
 - new_york_city.csv
@@ -25,8 +25,14 @@ Note: The information about gender and birth year is only availiable for Chicago
 ### Software you need in order to work on the project:
 ```
 python version 3.6 or newer
+```
+```
 Numpy libraries
+```
+```
 Pandas libraries
+```
+```
 Any code editor
 ```
 
