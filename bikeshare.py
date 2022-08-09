@@ -86,6 +86,9 @@ def get_filters():
 
 
 def raw_data(city):
+    """
+    Displays 5 lines of raw data at the time.
+    """
     df = pd.read_csv(CITY_DATA[city])
     n = 0
     while n < (df.shape[0] - 4):
